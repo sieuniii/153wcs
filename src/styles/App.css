@@ -1,0 +1,9 @@
+:root{
+    --main-color : #003B6E;
+    --sub-color : #F28D00;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
