@@ -15,7 +15,7 @@ function Header() {
       <h1>153 WORLD CHRISTIAN SCHOOL</h1>
     </div>
     <nav className={styles.menu}>
-    <a href="#" className={styles.menuItem}>학교 소개</a>
+    <a href="/" className={styles.menuItem}>학교 소개</a>
         <a href="#" className={styles.menuItem}>입학안내</a>
         <a href="#" className={styles.menuItem}>교육과정</a>
         <a href="#" className={styles.menuItem}>학교생활</a>
