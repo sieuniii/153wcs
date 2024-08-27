@@ -15,9 +15,9 @@ function ImageSlider() {
     );
   };
 
-  // 8초마다 자동으로 다음 이미지로 변경
+  // 5초마다 자동으로 다음 이미지로 변경
   useEffect(() => {
-    const interval = setInterval(handleNext, 8000);
+    const interval = setInterval(handleNext, 5000);
     return () => clearInterval(interval);
   }, []);
 

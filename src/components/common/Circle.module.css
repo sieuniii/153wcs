@@ -1,0 +1,22 @@
+.circle {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: var(--main-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* 세로 중앙 정렬 */
+  align-items: center; /* 가로 중앙 정렬 */
+  color: white; /* 텍스트 색상 */
+}
+
+.number {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.text {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 18px;
+}

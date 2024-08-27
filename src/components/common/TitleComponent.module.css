@@ -1,0 +1,21 @@
+.title {
+  font-size: 48px; /* 글자 크기 설정 */
+  margin-bottom: 50px;
+  opacity: 0; /* 기본 상태는 보이지 않음 */
+  transform: translateY(50px); /* 기본 위치는 아래쪽에 있음 */
+  transition: opacity 1s ease-out, transform 1s ease-out; /* 애니메이션 효과 */
+}
+
+.animate {
+  opacity: 1; /* 애니메이션 후 보이도록 */
+  transform: translateY(0); /* 제자리로 이동 */
+}
+
+.underline {
+  width: 300px; /* 선의 너비 */
+  height: 2px; /* 선의 높이 */
+  background-color: var(--sub-color); /* 주황색 */
+  margin: 10px auto 0; /* 위쪽 여백, 자동 좌우 정렬 */
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
