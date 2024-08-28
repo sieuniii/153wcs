@@ -1,6 +1,15 @@
 :root {
   --main-color: #003b6e;
   --sub-color: #f28d00;
+  --font-thin: "font-thin", sans-serif;
+  --font-extralight: "font-extralight", sans-serif;
+  --font-light: "font-light", sans-serif;
+  --font-regular: "font-regular", sans-serif;
+  --font-medium: "font-medium", sans-serif;
+  --font-semibold: "font-semibold", sans-serif;
+  --font-bold: "font-bold", sans-serif;
+  --font-extrabold: "font-extrabold", sans-serif;
+  --font-black: "font-black", sans-serif;
 }
 
 html,
@@ -9,13 +18,53 @@ body {
   padding: 0;
   width: 100%;
   height: 100%;
-  font-family: "pretendard", sans-serif;
+  font-family: var(--font-thin);
   box-sizing: border-box; /* 패딩과 보더가 크기에 포함되도록 설정 */
 }
 
+/* 폰트설정 */
+
 @font-face {
-  font-family: "pretendard";
-  src: url("../assets/font/PretendardVariable.ttf") format("truetype");
-  font-weight: 100;
-  font-style: 30px;
+  font-family: "font-thin";
+  src: url("../assets/font/Pretendard-Thin.woff") format("woff");
+}
+
+@font-face {
+  font-family: "font-extralight";
+  src: url("../assets/font/Pretendard-ExtraLight.woff") format("woff");
+}
+
+@font-face {
+  font-family: "font-light";
+  src: url("../assets/font/Pretendard-Light.woff") format("woff");
+}
+
+@font-face {
+  font-family: "font-regular";
+  src: url("../assets/font/Pretendard-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "font-medium";
+  src: url("../assets/font/Pretendard-Medium.woff") format("woff");
+}
+
+@font-face {
+  font-family: "font-semibold";
+  src: url("../assets/font/Pretendard-SemiBold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "font-bold";
+  src: url("../assets/font/Pretendard-Bold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "font-extrabold";
+  src: url("../assets/font/Pretendard-ExtraBold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "font-black";
+  src: url("../assets/font/Pretendard-Black.woff") format("woff");
 }
