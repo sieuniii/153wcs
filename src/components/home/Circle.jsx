@@ -1,14 +1,12 @@
 import React from "react";
 import styles from "./Circle.module.css";
 
-function Circle({ number, title, content, isActive, isHidden, onClick }) {
-  if (isHidden) {
-    return null; // 선택되지 않은 원은 렌더링하지 않음
-  }
-
+function Circle({ number, title, content, isActive, isShrunk, onClick }) {
   return (
     <div
-      className={`${styles.circle} ${isActive ? styles.expanded : ""}`}
+      className={`${styles.circle} ${isActive ? styles.expanded : ""} ${
+        isShrunk ? styles.shrink : ""
+      }`}
       onClick={onClick}
     >
       {!isActive ? (
@@ -17,15 +15,13 @@ function Circle({ number, title, content, isActive, isHidden, onClick }) {
           <div className={styles.title}>{title}</div>
         </>
       ) : (
-        <div>
-          <div className={styles.content}>
-            <p>{number}</p>
-            <p>{title}</p>
+        <>
+          <div className={styles.expandedHeader}>
+            <div className={styles.expandedNumber}>{number}</div>
+            <div className={styles.expandedTitle}>{title}</div>
           </div>
-          <div>
-            <p>{content}</p>
-          </div>
-        </div>
+          <div className={styles.expandedContent}>{content}</div>
+        </>
       )}
     </div>
   );

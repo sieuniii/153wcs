@@ -4,11 +4,12 @@
   align-items: center;
   flex-wrap: wrap;
   gap: 50px;
+  width: 100%;
 }
 
 .circle {
-  width: 200px;
-  height: 200px;
+  width: 230px;
+  height: 230px;
   border-radius: 50%;
   background-color: var(--main-color);
   display: flex;
@@ -17,7 +18,7 @@
   align-items: center; /* 가로 중앙 정렬 */
   color: white; /* 텍스트 색상 */
   cursor: pointer;
-  transition: all 0.5s ease; /* 애니메이션 전환 효과 */
+  transition: all 1s ease; /* 애니메이션 전환 효과 */
   overflow: hidden;
 }
 
@@ -26,22 +27,54 @@
   font-family: var(--font-extrabold);
 }
 
+.shrink {
+  transform: scale(0.7); /* 축소된 상태 */
+  transition: all 1s ease;
+}
+
 .title {
   padding-top: 25px;
   font-size: 18px;
-  font-family: var(--font-extrathin);
+  font-family: var(--font-light);
 }
 
+/* 확장된 상태 */
 .expanded {
   background-color: var(--sub-color);
   width: 800px; /* 확장된 상태의 너비 */
-  height: 200px; /* 확장된 상태의 높이 */
-  border-radius: 120px; /* 카드 형태 */
-  justify-content: flex-start;
+  height: 230px; /* 확장된 상태의 높이 */
+  border-radius: 130px; /* 카드 형태 */
+  justify-content: space-around;
   padding: 20px;
+  flex-direction: row;
 }
 
-.content {
+.expandedHeader {
+  width: 220px;
+  font-family: var(--font-light);
+}
+
+.expandedNumber {
+  font-family: var(--font-extrabold);
+  font-size: 50px;
+}
+
+.expandedTitle {
+  padding-top: 10px;
   font-size: 18px;
-  text-align: left;
+}
+
+.customFont {
+  font-family: var(--font-bold); /* 여기서 원하는 폰트를 설정 */
+}
+
+.expandedContent {
+  width: 580px;
+  white-space: pre-line;
+  text-align: left; /* 텍스트를 왼쪽 정렬 */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* 텍스트를 위쪽에서 시작 */
+  align-items: flex-start; /* 요소를 왼쪽으로 정렬 */
+  font-size: 18px;
 }
