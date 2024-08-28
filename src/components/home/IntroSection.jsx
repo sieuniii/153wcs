@@ -1,7 +1,8 @@
 import React from "react";
 import TitleComponent from "../common/TitleComponent";
+import CircleList from "./CircleList.jsx";
 import styles from "./IntroSection.module.css";
-import Circle from "../../components/common/Circle.jsx";
+import Circle from "./Circle.jsx";
 
 function IntroSection() {
   return (
@@ -15,11 +16,7 @@ function IntroSection() {
           </>
         }
       />
-      <div className={styles.circleContainer}>
-        <Circle number="1" text="한 사람" />
-        <Circle number="5" text="다섯 가지 교육 목표" />
-        <Circle number="3" text="셋이 하나" />
-      </div>
+      <CircleList />
     </div>
   );
 }

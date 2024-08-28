@@ -8,6 +8,9 @@
   justify-content: center; /* 세로 중앙 정렬 */
   align-items: center; /* 가로 중앙 정렬 */
   color: white; /* 텍스트 색상 */
+  cursor: pointer;
+  transition: all 0.5s ease; /* 애니메이션 전환 효과 */
+  overflow: hidden;
 }
 
 .number {
@@ -19,4 +22,18 @@
   padding-top: 20px;
   padding-bottom: 20px;
   font-size: 18px;
+}
+
+.expanded {
+  background-color: var(--sub-color);
+  width: 600px; /* 확장된 상태의 너비 */
+  height: 200px; /* 확장된 상태의 높이 */
+  border-radius: 120px; /* 카드 형태 */
+  justify-content: flex-start;
+  padding: 20px;
+}
+
+.content {
+  font-size: 18px;
+  text-align: left;
 }
