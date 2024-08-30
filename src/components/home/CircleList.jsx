@@ -4,7 +4,6 @@ import styles from "./Circle.module.css";
 
 function CircleList() {
   const [activeIndex, setActiveIndex] = useState(null);
-  const [showCircles, setShowCircles] = useState(true); // 원들이 보이는지 여부를 관리하는 상태
 
   const circles = [
     {
@@ -30,12 +29,34 @@ function CircleList() {
     {
       number: "5",
       title: "다섯 가지 교육 목표",
-      content:
-        "Fiathful 믿음 있는 아이 \n\n Creative 창의적인 아이 \n\n Respectful 종중하는 아이 \n\n Passionate 열정적인 아이 \n\n Serving 섬기는 아이",
+      content: (
+        <>
+          <p>
+            <strong className={styles.customFont}>Faithful</strong> 믿음 있는
+            아이
+          </p>
+          <p>
+            <strong className={styles.customFont}>Creative</strong> 창의적인
+            아이
+          </p>
+          <p>
+            <strong className={styles.customFont}>Respectful</strong> 종중하는
+            아이
+          </p>
+          <p>
+            <strong className={styles.customFont}>Passionate</strong> 열정적인
+            아이
+          </p>
+          <p>
+            <strong className={styles.customFont}>Serving</strong> 섬기는 아이
+          </p>
+        </>
+      ),
     },
     {
       number: "3",
       title: "셋이 하나",
+
       content:
         "삼위 일체 하나님의 모습을 닮아 다양속의 일치를 이룸 \n\n 학생 부모 교사가 하나되어 전인적인 교육 목표를 이룸 \n\n 사람 학교 세상: 한 사람을 변화 시켜 학교와 세상을 변화시키는",
     },

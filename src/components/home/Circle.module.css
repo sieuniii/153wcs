@@ -3,7 +3,7 @@
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  gap: 50px;
+  gap: 70px;
   width: 100%;
 }
 
@@ -20,6 +20,7 @@
   cursor: pointer;
   transition: all 1s ease; /* 애니메이션 전환 효과 */
   overflow: hidden;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.4);
 }
 
 .number {
@@ -41,7 +42,7 @@
 /* 확장된 상태 */
 .expanded {
   background-color: var(--sub-color);
-  width: 800px; /* 확장된 상태의 너비 */
+  width: 750px; /* 확장된 상태의 너비 */
   height: 230px; /* 확장된 상태의 높이 */
   border-radius: 130px; /* 카드 형태 */
   justify-content: space-around;
@@ -50,7 +51,7 @@
 }
 
 .expandedHeader {
-  width: 220px;
+  width: 200px;
   font-family: var(--font-light);
 }
 
