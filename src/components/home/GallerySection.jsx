@@ -22,7 +22,7 @@ function GallerySection() {
   };
 
   return (
-    <div className={styles.sectionContainer}>
+    <div className={styles.galleryContainer}>
       <TitleComponent text={<>학교 둘러보기</>} />
       <PhotoGrid images={images} />
       <Button onClick={handleMoreButtonClick} text="더보기   + " />
