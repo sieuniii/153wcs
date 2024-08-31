@@ -1,0 +1,41 @@
+.interviewContainer {
+  position: relative;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  line-height: 1;
+  width: 70%;
+  height: 350px;
+  font-family: var(--font-light);
+  transition: opacity 0.5s ease-in-out;
+}
+
+.fadeIn {
+  opacity: 1;
+}
+
+.fadeOut {
+  opacity: 0;
+}
+
+.quoteLeft {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 2.5rem;
+  color: var(--main-color);
+}
+
+.quoteRight {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-size: 2.5rem;
+  color: var(--main-color);
+}
+
+.interviewContent {
+  font-style: italic;
+  font-size: 16px;
+}
