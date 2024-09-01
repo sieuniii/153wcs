@@ -1,0 +1,11 @@
+.buttonGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3개의 열로 구성된 그리드 */
+  gap: 20px;
+  padding: 20px;
+  box-sizing: border-box; /* 패딩을 포함하여 박스 크기를 계산 */
+  padding-left: 10rem;
+  padding-right: 10rem;
+  margin-top: 50px;
+  width: 100%;
+}

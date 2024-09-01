@@ -7,6 +7,8 @@ import HomePage from "./pages/home/HomePage"
 import PrayPage from "./pages/introduction/prayPage"
 import EducationPage from "./pages/introduction/EducationPage"
 
+import './styles/App.css';
+
 function App() {
 
   return (

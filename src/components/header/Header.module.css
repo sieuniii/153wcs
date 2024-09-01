@@ -1,0 +1,85 @@
+.header {
+  background-color: var(--main-color);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  height: 80px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000; /* header의 z-index */
+  box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.4);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 75px;
+  margin-right: 5px;
+}
+
+.logo p {
+  color: white;
+  font-size: 18px;
+  font-family: var(--font-bold);
+}
+
+.menu {
+  display: flex;
+  gap: 30px;
+  font-size: 12px;
+  margin-right: 2rem;
+  font-family: var(--font-bold);
+}
+
+.menuItem {
+  position: relative;
+}
+
+.menuItem a {
+  font-size: 14px;
+  color: white;
+  text-decoration: none;
+  font-family: var(--font-extraBold);
+  padding: 10px 20px;
+  display: block;
+}
+
+.menuItem a:hover {
+  color: var(--sub-color);
+  border-radius: 5px;
+}
+
+.dropdownMenu {
+  font-family: var(--font-extraThin);
+  display: none;
+  position: absolute;
+  top: 0%;
+  left: -20px;
+  background-color: var(--main-color);
+  z-index: -1; /* header보다 낮은 z-index */
+  min-width: 120px;
+  padding-top: 60px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+}
+
+.menuItem:hover .dropdownMenu,
+.dropdownMenu:hover {
+  display: block;
+}
+
+.dropdownMenu a {
+  font-size: 12px;
+  padding: 10px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  font-family: var(--font-regular);
+}
