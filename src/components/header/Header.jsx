@@ -16,7 +16,7 @@ function Header() {
         <div className={styles.menuItem}>
           <a href="#">학교소개</a>
           <div className={styles.dropdownMenu}>
-            <a href="/history">학교장 소개</a>
+            <a href="/page/principal">학교장 소개</a>
             <a href="/mission">153 기도문</a>
             <a href="/team">153 캠퍼스 역사</a>
             <a href="/team">학교 연혁</a>
