@@ -1,0 +1,9 @@
+.contentSection {
+  width: 100%;
+  display: flex;
+  justify-content: start; /* 가로 중앙 정렬 */
+  align-items: center; /* 세로 중앙 정렬 */
+  flex-direction: column; /* 요소를 세로로 배치 */
+  text-align: center; /* 텍스트를 중앙에 정렬 */
+  padding-top: 100px;
+}
