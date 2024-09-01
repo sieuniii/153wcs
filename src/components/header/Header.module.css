@@ -43,6 +43,7 @@
 }
 
 .menuItem a {
+  font-size: 14px;
   color: white;
   text-decoration: none;
   font-family: var(--font-extraBold);
@@ -75,6 +76,7 @@
 }
 
 .dropdownMenu a {
+  font-size: 12px;
   padding: 10px;
   text-decoration: none;
   display: block;
