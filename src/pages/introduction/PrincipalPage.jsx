@@ -32,26 +32,24 @@ function PrincipalPage() {
             />
 
             <div className={styles.principalText}>
-              <h2>류재상/ Jaesang Lyu</h2>
+              <p>류재상/ Jaesang Lyu</p>
               <ul>
                 <li>서강대학교 종교학 박사 (B.A)</li>
                 <li>Union Presbyterian Seminary 목회학 석사 (M.Div)</li>
-                <li>기독교교육학 석사 (MA)</li>
+                <li>기독교 교육학 석사 (MA)</li>
                 <li>Virginia Commonwealth University 환자 상담학 석사 (M.S)</li>
                 <li>
-                  University of Denver / Iliff School of Theology 상담학 박사
+                  University of Denver / lliff School of Theology 상담학 박사
                   (PH.D)
                 </li>
                 <li>전 장로교회 신학대학교 교수</li>
-                <li>현 우울이기 상담소 소장</li>
-                <li>현 학원협회 협장</li>
-                <li>현 세상의 빛 동참교회 담임목사</li>
+                <li>현 우물 이야기 상담소 소장</li>
+                <li>현 학품쉼터 원장</li>
+                <li>현 세상의 빛 동광교회 담임목사</li>
               </ul>
             </div>
           </div>
-          <div className={styles.principalMessage}>
-            <p>{text}</p>
-          </div>
+          <div className={styles.principalMessage}>{text}</div>
         </div>
       </div>
     </>

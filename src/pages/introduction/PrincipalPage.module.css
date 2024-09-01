@@ -8,6 +8,7 @@
   text-align: center; /* 텍스트를 중앙에 정렬 */
   margin-top: 100px;
   font-family: var(--font-extralight);
+  margin-bottom: 150px;
 }
 
 .rowSet {
@@ -26,23 +27,38 @@
 }
 
 .principalInfo {
-  width: 30%;
+  width: 35%;
   display: flex;
   flex-direction: column;
-  margin-bottom: 20px;
   object-fit: cover;
 }
 
 .principalText {
-  flex: 1;
+  margin-top: 20px;
+}
+
+.principalText p {
+  text-align: left;
+  font-size: 30px;
+  font-family: var(--font-regular);
+}
+
+.principalText ul {
   font-size: 16px;
-  line-height: 1.6;
+  font-family: var(--font-extralight);
+  line-height: 1.8; /* 텍스트 간격 조정 */
+  padding: 10px;
 }
 
 .principalMessage {
-  width: 30%;
+  width: 35%;
   font-size: 16px;
   line-height: 1.8;
   white-space: pre-wrap;
+  text-align: left;
+}
+
+li {
+  padding-left: 10px;
   text-align: left;
 }
