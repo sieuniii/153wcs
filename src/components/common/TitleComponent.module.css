@@ -1,6 +1,6 @@
 .title {
   font-family: var(--font-thin);
-  font-size: 40px;
+  font-size: 2.5em;
   margin-bottom: 50px;
   opacity: 0; /* 기본 상태는 보이지 않음 */
   transform: translateY(50px); /* 기본 위치는 아래쪽에 있음 */
