@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "../components/header/Header";
-import PageFooter from "../components/footer/pageFooter";
+import PageFooter from "../components/footer/PageFooter";
 import { Outlet } from "react-router-dom";
 
 function PageLayout() {
