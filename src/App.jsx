@@ -7,6 +7,7 @@ import HomePage from "./pages/home/HomePage";
 import PrayPage from "./pages/introduction/prayPage";
 import EducationPage from "./pages/introduction/EducationPage";
 import PrincipalPage from "./pages/introduction/PrincipalPage";
+import EntrancePage from "./pages/entrance/EntrancePage";
 import "./styles/App.css";
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
           <Route path="principal" element={<PrincipalPage />}></Route>
           <Route path="pray" element={<PrayPage />}></Route>
           <Route path="education" element={<EducationPage />}></Route>
+          <Route path="entrance" element={<EntrancePage />}></Route>
         </Route>
       </Routes>
     </Router>

@@ -26,7 +26,7 @@ function Header() {
           </div>
         </div>
         <div className={styles.menuItem}>
-          <a href="/">입학안내</a>
+          <a href="/page/entrance">입학안내</a>
         </div>
         <div className={styles.menuItem}>
           <a href="#">교육과정</a>
