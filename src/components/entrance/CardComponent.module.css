@@ -1,0 +1,57 @@
+.card {
+  border: 1px solid #ccc;
+  margin-bottom: 30px;
+  overflow: hidden; /* Ensure that content is clipped if it goes beyond the box */
+  transition: all 0.3s ease; /* Smooth transition for height and other properties */
+}
+
+.cardHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  background-color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  height: 50px; /* Set fixed height for the header */
+}
+
+.cardHeader:hover {
+  background-color: var(--sub-color);
+
+  .title {
+    font-family: var(--font-regular);
+    color: white;
+  }
+
+  .icon {
+    color: white;
+  }
+}
+
+.stepTitle {
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.step {
+  font-family: var(--font-bold);
+  color: var(--sub-color);
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.title {
+  font-family: var(--font-extralight);
+}
+
+.icon {
+  color: var(--sub-color);
+}
+
+.cardContent {
+  padding: 15px;
+  background-color: white;
+  border-top: 1px solid #ccc;
+}
