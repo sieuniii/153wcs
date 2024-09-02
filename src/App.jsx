@@ -1,10 +1,10 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-import MainLayout from "./layout/mainLayout";
-import PageLayout from "./layout/pageLayout";
+import MainLayout from "./layout/MainLayout";
+import PageLayout from "./layout/PageLayout";
 import HomePage from "./pages/home/HomePage";
-import PrayPage from "./pages/introduction/prayPage";
+import PrayPage from "./pages/introduction/PrayPage";
 import EducationPage from "./pages/introduction/EducationPage";
 import PrincipalPage from "./pages/introduction/PrincipalPage";
 import EntrancePage from "./pages/entrance/EntrancePage";
