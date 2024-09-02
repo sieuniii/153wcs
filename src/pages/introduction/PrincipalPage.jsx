@@ -1,7 +1,7 @@
 import React from "react";
 import BackgroundComponent from "../../components/common/BackgroundComponent";
 import TitleComponent from "../../components/common/TitleComponent";
-import styles from "./principalPage.module.css";
+import styles from "./PrincipalPage.module.css";
 import image1 from "../../assets/img/학교전경2.jpg";
 import image from "../../assets/img/교장선생님.jpeg";
 
