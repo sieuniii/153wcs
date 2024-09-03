@@ -62,3 +62,26 @@ li {
   padding-left: 10px;
   text-align: left;
 }
+
+@media screen and (max-width: 768px) {
+  .rowSet {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .principalInfo {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    object-fit: cover;
+  }
+
+  .principalMessage {
+    width: 80%;
+    font-size: 16px;
+    line-height: 1.8;
+    white-space: pre-wrap;
+    text-align: left;
+  }
+}
