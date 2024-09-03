@@ -23,6 +23,11 @@ function EntrancePage() {
           입학 관련 더 자세한 문의 사항은 <br /> 아래 연락처로 연락주시면
           친절하게 답해드리겠습니다.
         </p>
+        <div className={styles.entranceInfo}>
+          <p>Tel. 032-341-0153</p>
+          <p>Email. 153.wc.school@gmail.com</p>
+          <p>KakaoID. 153_wsc</p>
+        </div>
       </div>
     </>
   );

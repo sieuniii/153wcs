@@ -13,8 +13,12 @@ function AccordionComponent() {
       <CardComponent
         step={2}
         title="구글폼 상담신청"
-        content="2024년도 입학생 방문을 위한 사전질문 바로 가기"
+        content={`153 월드 크리스천 스쿨 방문 전 신입생과 부모님의 성의 있는 답변 부탁드립니다.
+학교 방문 및 교감선생님과의 면담 일정은 추후 연락드릴 예정입니다.
+감사합니다.`}
+        link="https://docs.google.com/forms/d/e/1FAIpQLSf2UIJMpVtQLTKucqQ5u57xnzvHGh8Sdw_lZ8D95mueyOtLHQ/viewform"
       />
+
       <CardComponent
         step={3}
         title="상담 진행"

@@ -51,6 +51,7 @@
 }
 
 .principalMessage {
+  word-break: keep-all;
   width: 35%;
   font-size: 16px;
   line-height: 1.8;

@@ -1,8 +1,8 @@
 .card {
   border: 1px solid #ccc;
   margin-bottom: 30px;
-  overflow: hidden; /* Ensure that content is clipped if it goes beyond the box */
-  transition: all 0.3s ease; /* Smooth transition for height and other properties */
+  overflow: hidden;
+  transition: all 0.3s ease;
 }
 
 .cardHeader {
@@ -13,18 +13,39 @@
   background-color: #fff;
   cursor: pointer;
   transition: background-color 0.3s ease, color 0.3s ease;
-  height: 50px; /* Set fixed height for the header */
+  height: 50px;
+}
+
+.cardHeaderOpen {
+  background-color: var(--sub-color);
+  color: white;
+
+  .title {
+    font-family: var(--font-regular);
+  }
+
+  .icon {
+    color: white;
+  }
+
+  .step {
+    color: white;
+  }
 }
 
 .cardHeader:hover {
   background-color: var(--sub-color);
+  color: white;
 
   .title {
     font-family: var(--font-regular);
-    color: white;
   }
 
   .icon {
+    color: white;
+  }
+
+  .step {
     color: white;
   }
 }
@@ -43,6 +64,7 @@
 }
 
 .title {
+  padding-left: 10px;
   font-family: var(--font-extralight);
 }
 
@@ -51,7 +73,20 @@
 }
 
 .cardContent {
-  padding: 15px;
+  padding: 30px;
+  white-space: pre-line; /* 줄 바꿈을 인식하도록 설정 */
   background-color: white;
   border-top: 1px solid #ccc;
+}
+
+.cardContent p {
+  font-size: 18px;
+  text-align: start;
+  line-height: 2;
+  margin: 0;
+  padding: 0;
+}
+
+.cardContent a {
+  font-size: 24px;
 }
