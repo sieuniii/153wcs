@@ -90,3 +90,24 @@
 .cardContent a {
   font-size: 24px;
 }
+
+@media screen and (max-width: 768px) {
+  .cardContent a {
+    font-size: 1rem;
+  }
+
+  .stepTitle {
+    font-size: 1rem;
+  }
+
+  .cardContent {
+    padding: 1rem;
+  }
+  .cardContent p {
+    font-size: 1rem;
+  }
+
+  .step {
+    margin-right: 0;
+  }
+}

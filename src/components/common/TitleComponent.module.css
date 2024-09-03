@@ -22,3 +22,13 @@
   margin-bottom: 50px;
   margin-top: 70px;
 }
+
+@media screen and (max-width: 768px) {
+  .title {
+    font-size: 2rem;
+  }
+
+  .underline {
+    width: 15rem; /* 선의 너비 */
+  }
+}

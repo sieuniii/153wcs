@@ -31,8 +31,8 @@ function AccordionComponent() {
       />
       <CardComponent
         step={5}
-        title="학부모님 및 학생 참여 최종 면접"
-        content="최종 면접에 대한 내용을 여기에 적습니다."
+        title="최종 면접"
+        content="학무보님 및 학생의 최종면접이 진행됩니다. 최종 면접에 대한 내용을 여기에 적습니다."
       />
       <CardComponent
         step={6}

@@ -13,10 +13,11 @@ function EntrancePage() {
       <BackgroundComponent image={image1} />
       <div className={styles.contentSection}>
         <TitleComponent text="입학 절차 안내" />
-        <p>
+        <div className={styles.subTitle}>
           아래의 절차로 153 WCS에 입학하실 수 있습니다. <br /> 학부모님들의 많은
           관심 부탁드립니다.
-        </p>
+        </div>
+
         <AccordionComponent />
         <TitleComponent text="입학 문의" />
         <p>
