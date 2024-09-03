@@ -1,3 +1,4 @@
+/* 기존 스타일 유지 */
 .header {
   background-color: var(--main-color);
   color: white;
@@ -32,6 +33,8 @@
 
 .menu {
   display: flex;
+  align-items: center;
+  justify-content: center;
   gap: 30px;
   font-size: 12px;
   margin-right: 2rem;
@@ -71,7 +74,8 @@
 }
 
 .menuItem:hover .dropdownMenu,
-.dropdownMenu:hover {
+.dropdownMenu:hover,
+.menuItem.active .dropdownMenu {
   display: block;
 }
 
@@ -80,6 +84,80 @@
   padding: 10px;
   text-decoration: none;
   display: block;
-  text-align: center;
+  text-align: center; /* left */
   font-family: var(--font-regular);
+}
+
+/* 모바일 전용 스타일 */
+.hamburger {
+  display: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.slideMenu {
+  position: fixed;
+  top: 0;
+  right: -100%; /* 화면 밖에 숨겨놓기 */
+  width: 60%;
+  height: 100%;
+  background-color: var(--main-color);
+  color: white;
+  z-index: 9999;
+  transition: right 0.3s ease-in-out; /* 슬라이드 애니메이션 */
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  overflow: scroll;
+}
+
+.slideMenu.open {
+  right: 0; /* 화면 안으로 슬라이드 */
+}
+
+.closeMenu {
+  align-self: flex-end;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+/* 미디어 쿼리 */
+@media screen and (max-width: 768px) {
+  .menu {
+    display: none; /* 기본적으로 메뉴는 숨김 */
+  }
+
+  .hamburger {
+    display: block; /* 모바일에서 햄버거 아이콘 표시 */
+  }
+
+  .logo p {
+    font-size: 14px;
+  }
+
+  .menuItem a {
+    font-family: var(--font-bold);
+    font-size: 14px;
+    color: var(--sub-color);
+  }
+
+  .menuItem {
+    margin-bottom: 20px;
+  }
+
+  .dropdownMenu {
+    display: block; /* 모바일에서는 기본적으로 드롭다운이 보이도록 설정 */
+    position: static; /* 슬라이드 메뉴 내에서는 위치를 고정하지 않음 */
+    background-color: transparent; /* 배경색 제거 */
+    padding-top: 0;
+    padding-bottom: 0;
+    border-radius: 0;
+    margin-left: 30px; /* 인덴트를 주기 위해 약간의 마진 추가 */
+  }
+
+  .dropdownMenu a {
+    font-size: 12px;
+    color: white;
+    text-align: left; /* 링크 텍스트를 왼쪽 정렬 */
+  }
 }

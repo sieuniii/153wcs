@@ -23,7 +23,7 @@
 
 @media screen and (max-width: 768px) {
   .slider {
-    width: 100%;
+    width: auto;
     height: 50vh;
   }
 

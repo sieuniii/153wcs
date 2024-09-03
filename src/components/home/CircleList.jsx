@@ -1,9 +1,10 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Circle from "./Circle";
 import styles from "./Circle.module.css";
 
 function CircleList() {
   const [activeIndex, setActiveIndex] = useState(null);
+  const [isMobile, setIsMobile] = useState(false);
 
   const circles = [
     {
@@ -56,14 +57,24 @@ function CircleList() {
     {
       number: "3",
       title: "셋이 하나",
-
       content:
         "삼위 일체 하나님의 모습을 닮아 다양속의 일치를 이룸 \n\n 학생 부모 교사가 하나되어 전인적인 교육 목표를 이룸 \n\n 사람 학교 세상: 한 사람을 변화 시켜 학교와 세상을 변화시키는",
     },
   ];
 
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth <= 768);
+    };
+
+    // 초기 로드 시 확인
+    handleResize();
+    // 창 크기 변경 시 확인
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
   const handleCircleClick = (index) => {
-    // 이미 클릭된 원을 다시 클릭한 경우, 모든 원이 보이도록 설정
     if (activeIndex === index) {
       setActiveIndex(null);
     } else {
@@ -80,8 +91,9 @@ function CircleList() {
           title={circle.title}
           content={circle.content}
           isActive={activeIndex === index}
-          isShrunk={activeIndex !== null && activeIndex !== index} // 선택되지 않은 원은 축소
+          isShrunk={activeIndex !== null && activeIndex !== index}
           onClick={() => handleCircleClick(index)}
+          isMobile={isMobile} // 모바일 여부를 전달
         />
       ))}
     </div>

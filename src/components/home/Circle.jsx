@@ -1,13 +1,27 @@
 import React from "react";
 import styles from "./Circle.module.css";
 
-function Circle({ number, title, content, isActive, isShrunk, onClick }) {
+function Circle({
+  number,
+  title,
+  content,
+  isActive,
+  isShrunk,
+  onClick,
+  isMobile,
+}) {
+  const handleClick = () => {
+    if (!isMobile) {
+      onClick();
+    }
+  };
+
   return (
     <div
       className={`${styles.circle} ${isActive ? styles.expanded : ""} ${
         isShrunk ? styles.shrink : ""
       }`}
-      onClick={onClick}
+      onClick={handleClick}
     >
       {!isActive ? (
         <>

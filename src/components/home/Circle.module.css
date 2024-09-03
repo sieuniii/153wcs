@@ -79,3 +79,41 @@
   align-items: flex-start; /* 요소를 왼쪽으로 정렬 */
   font-size: 18px;
 }
+
+@media screen and (max-width: 768px) {
+  .circleContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 70px;
+    width: 100%;
+  }
+
+  .circle {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    background-color: var(--main-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* 세로 중앙 정렬 */
+    align-items: center; /* 가로 중앙 정렬 */
+    color: white; /* 텍스트 색상 */
+    cursor: pointer;
+    transition: all 1s ease; /* 애니메이션 전환 효과 */
+    overflow: hidden;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.4);
+  }
+
+  .expanded {
+    background-color: var(--sub-color);
+    width: 20rem; /* 확장된 상태의 너비 */
+    height: 10rem; /* 확장된 상태의 높이 */
+    border-radius: 130px; /* 카드 형태 */
+    justify-content: space-around;
+    padding: 20px;
+    flex-direction: row;
+  }
+}
