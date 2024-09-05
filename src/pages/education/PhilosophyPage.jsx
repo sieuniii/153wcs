@@ -13,6 +13,11 @@ function PhilosophyPage() {
         <TitleComponent text="교육 철학" />
         <div className={styles.circleContainer}>
           <CircleComponent
+            title="153 WCS"
+            description=" 5가지 교육 목표"
+            position="center"
+          />
+          <CircleComponent
             title="Faith"
             description="믿음의 아이"
             position="top-center"
@@ -36,11 +41,6 @@ function PhilosophyPage() {
             title="Passionate"
             description="열정적인 아이"
             position="top-left"
-          />
-          <CircleComponent
-            title="153 WCS"
-            description=" 5가지 교육 목표"
-            position="center"
           />
         </div>
         <div className={styles.descriptionSection}>

@@ -90,16 +90,16 @@
 /* 모바일 대응 */
 @media screen and (max-width: 768px) {
   .circle {
-    width: 80px;
-    height: 80px;
+    width: 150px;
+    height: 150px;
   }
 
   .circleTitle {
-    font-size: 12px;
+    font-size: 20px;
   }
 
   .circleDescription {
-    font-size: 10px;
+    font-size: 18px;
   }
 
   /* 모바일에서는 원들을 세로로 배치 */
@@ -111,5 +111,23 @@
     position: static;
     transform: none;
     margin: 20px 0;
+  }
+
+  .center {
+    position: relative;
+    width: 100%;
+    height: auto;
+    border: none;
+    margin-bottom: 50px; /* 다른 원들과 간격 추가 */
+    font-size: 2px;
+    font-family: var(--font-thin);
+
+    .circleTitle {
+      font-family: var(--font-thin);
+    }
+
+    .circleDescription {
+      font-family: var(--font-thin);
+    }
   }
 }
