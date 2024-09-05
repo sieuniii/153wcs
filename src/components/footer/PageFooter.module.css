@@ -23,6 +23,23 @@
   gap: 10px;
 }
 
+.snsSection a {
+  color: white; /* 기본 색상 흰색 */
+  text-decoration: none; /* 링크 밑줄 제거 */
+}
+
+.snsSection a:visited {
+  color: white; /* 클릭 후에도 흰색 유지 */
+}
+
+.snsSection a:hover {
+  color: white; /* 마우스 오버 시 흰색 유지 */
+}
+
+.snsSection a:active {
+  color: white; /* 클릭 시 흰색 유지 */
+}
+
 .infoSection {
   width: 80%;
   text-align: start;

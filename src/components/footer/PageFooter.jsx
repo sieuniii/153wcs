@@ -21,9 +21,30 @@ function PageFooter() {
         <br />
       </div>
       <div className={styles.snsSection}>
-        <AiFillInstagram />
-        <FaYoutube />
-        <RiKakaoTalkFill />
+        <a
+          href="https://www.instagram.com/153.world.cs?igsh=MXQ2ajdxZ25nMTRtZQ%3D%3D"
+          target="_blank"
+          rel="noopener noreferrer"
+          className={styles.icon}
+        >
+          <AiFillInstagram />
+        </a>
+        <a
+          href="https://www.youtube.com/@153worldchristianschool"
+          target="_blank"
+          rel="noopener noreferrer"
+          className={styles.icon}
+        >
+          <FaYoutube />
+        </a>
+        <a
+          href="http://pf.kakao.com/_UUxkxdK"
+          target="_blank"
+          rel="noopener noreferrer"
+          className={styles.icon}
+        >
+          <RiKakaoTalkFill />
+        </a>
       </div>
     </div>
   );
