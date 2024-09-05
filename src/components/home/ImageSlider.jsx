@@ -1,9 +1,12 @@
 import React, { useState, useEffect } from "react";
 import styles from "./ImageSlider.module.css";
-import img1 from "../../assets/img/수업사진.jpg";
-import img2 from "../../assets/img/학교전경.jpeg";
+import img1 from "../../assets/img/메인페이지1.jpg";
+import img2 from "../../assets/img/메인페이지2.jpg";
+import img3 from "../../assets/img/메인페이지3.jpg";
+import img4 from "../../assets/img/메인페이지6.jpg";
+import img5 from "../../assets/img/메인페이지5.jpg";
 
-const images = [img1, img2];
+const images = [img1, img2, img3, img4, img5];
 
 function ImageSlider() {
   const [currentIndex, setCurrentIndex] = useState(0);

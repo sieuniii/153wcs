@@ -38,13 +38,19 @@
 .interviewContent {
   margin: 0 2.5rem; /* 좌우 마진 추가로 아이콘과의 간격 확보 */
   font-style: italic;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.8;
 }
 
 .interviewContent p {
   margin: 0; /* p 태그의 기본 margin 제거 */
   padding: 0; /* p 태그의 기본 padding 제거 */
+}
+
+.author {
+  padding-top: 20px;
+  font-size: 20px;
+  font-family: var(--font-regular);
 }
 
 @media screen and (max-width: 768px) {

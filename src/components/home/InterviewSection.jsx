@@ -155,8 +155,10 @@ function InterviewSection() {
         </span>
 
         <div className={interviewStyles.interviewContent}>
-          {interviews[currentInterview].content}-{" "}
-          {interviews[currentInterview].author}
+          {interviews[currentInterview].content}
+          <div className={interviewStyles.author}>
+            {interviews[currentInterview].author}
+          </div>
         </div>
         <span className={interviewStyles.quoteRight}>
           <BiSolidQuoteAltRight />
