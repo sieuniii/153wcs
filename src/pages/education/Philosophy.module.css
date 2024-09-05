@@ -14,13 +14,14 @@
   width: 500px;
   height: 500px;
   margin: 50px auto;
+  margin-bottom: 150px;
 }
 
 .descriptionSection {
   width: 80%;
   line-height: 2;
   text-align: start;
-  padding-top: 150px;
+  padding-bottom: 150px;
 
   .subTitle {
     font-family: var(--font-extralight);
@@ -48,10 +49,13 @@
     width: 80%;
     line-height: 2;
     text-align: start;
-    padding-top: 50px;
+    padding-bottom: 50px;
 
     .subTitle {
       font-size: 24px;
+
+      margin: 0; /* p 태그의 기본 margin 제거 */
+      padding-left: 10px;
     }
   }
 }
