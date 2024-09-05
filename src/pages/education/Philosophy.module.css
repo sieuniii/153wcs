@@ -1,0 +1,40 @@
+.contentSection {
+  width: 100%;
+  display: flex;
+  justify-content: center; /* 가로 중앙 정렬 */
+  align-items: center; /* 세로 중앙 정렬 */
+  flex-direction: column; /* 요소를 세로로 배치 */
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px; /* 하단 여백 추가 */
+}
+
+.circleContainer {
+  position: relative;
+  width: 500px;
+  height: 500px;
+  margin: 50px auto;
+}
+
+.descriptionSection {
+  width: 80%;
+  line-height: 2;
+  text-align: start;
+  padding-top: 150px;
+
+  .subTitle {
+    font-family: var(--font-extralight);
+    font-size: 30px;
+  }
+
+  .content {
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .circleContainer {
+    width: 100%;
+    height: auto;
+  }
+}

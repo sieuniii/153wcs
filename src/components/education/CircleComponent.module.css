@@ -1,0 +1,115 @@
+.circle {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  position: absolute;
+  opacity: 0; /* 처음에 보이지 않음 */
+  transition: opacity 0.8s ease-in-out, transform 0.8s ease-in-out; /* 애니메이션 설정 */
+  line-height: 1.5;
+}
+
+.circle.visible {
+  opacity: 1; /* 보이게 설정 */
+}
+
+.circleTitle {
+  font-size: 24px;
+  font-family: var(--font-regular);
+}
+
+.circleDescription {
+  font-size: 18px;
+  font-family: var(--font-extralight);
+}
+
+/* 원형 배치 */
+.top-center {
+  background-color: var(--main-color);
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -30%);
+}
+
+.top-left {
+  background-color: #66a4d8;
+  top: 50%;
+  left: 0;
+  transform: translate(-50%, -50%);
+}
+
+.top-right {
+  background-color: #00579a;
+  top: 50%;
+  right: 0;
+  transform: translate(50%, -50%);
+}
+
+.bottom-left {
+  background-color: #2a8fcb;
+  bottom: 0;
+  left: 25%;
+  transform: translate(-50%, 50%);
+}
+
+.bottom-right {
+  background-color: #006cb0;
+  bottom: 0;
+  right: 25%;
+  transform: translate(50%, 50%);
+}
+
+.center {
+  width: 500px;
+  height: 500px;
+  border-style: solid;
+  color: black;
+  border-color: var(--sub-color);
+  border-width: 3px;
+  top: -45%;
+  right: 50%;
+  transform: translate(50%, 50%);
+  z-index: -1;
+
+  .circleTitle {
+    font-family: var(--font-light);
+    font-size: 24px;
+  }
+
+  .circleDescription {
+    font-family: var(--font-light);
+    font-size: 24px;
+  }
+}
+
+/* 모바일 대응 */
+@media screen and (max-width: 768px) {
+  .circle {
+    width: 80px;
+    height: 80px;
+  }
+
+  .circleTitle {
+    font-size: 12px;
+  }
+
+  .circleDescription {
+    font-size: 10px;
+  }
+
+  /* 모바일에서는 원들을 세로로 배치 */
+  .top-center,
+  .top-left,
+  .top-right,
+  .bottom-left,
+  .bottom-right {
+    position: static;
+    transform: none;
+    margin: 20px 0;
+  }
+}

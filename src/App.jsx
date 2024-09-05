@@ -5,7 +5,7 @@ import MainLayout from "./layout/MainLayout";
 import PageLayout from "./layout/PageLayout";
 import HomePage from "./pages/home/HomePage";
 import PrayPage from "./pages/introduction/PrayPage";
-import EducationPage from "./pages/introduction/EducationPage";
+import PhilosophyPage from "./pages/education/PhilosophyPage";
 import PrincipalPage from "./pages/introduction/PrincipalPage";
 import EntrancePage from "./pages/entrance/EntrancePage";
 import "./styles/App.css";
@@ -23,7 +23,7 @@ function App() {
         <Route path="/page" element={<PageLayout />}>
           <Route path="principal" element={<PrincipalPage />}></Route>
           <Route path="pray" element={<PrayPage />}></Route>
-          <Route path="education" element={<EducationPage />}></Route>
+          <Route path="education" element={<PhilosophyPage />}></Route>
           <Route path="entrance" element={<EntrancePage />}></Route>
         </Route>
       </Routes>
