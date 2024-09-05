@@ -1,7 +1,7 @@
 import React from "react";
 import BackgroundComponent from "../components/common/BackgroundComponent";
 import styles from "./Ready.module.css";
-import image1 from "../assets/img/메인페이지4.jpg";
+import image1 from "../assets/img/준비중.jpg";
 function ReadyPage() {
   return (
     <>

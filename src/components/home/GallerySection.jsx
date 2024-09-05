@@ -3,7 +3,7 @@ import TitleComponent from "../common/TitleComponent";
 import PhotoGrid from "../common/PhotoGrid";
 import Button from "../common/Button";
 import styles from "../../pages/home/Homepage.module.css";
-import image1 from "../../assets/img/수업사진.jpg";
+import image1 from "../../assets/img/예배7.jpg";
 import image2 from "../../assets/img/예배1.jpeg";
 import image3 from "../../assets/img/예배2.jpg";
 import image4 from "../../assets/img/예배3.jpg";

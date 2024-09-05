@@ -17,3 +17,10 @@
     padding: 0;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .ready {
+    height: 30vh;
+    margin-bottom: 0px;
+  }
+}

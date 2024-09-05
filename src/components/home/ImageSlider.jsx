@@ -3,10 +3,11 @@ import styles from "./ImageSlider.module.css";
 import img1 from "../../assets/img/메인페이지1.jpg";
 import img2 from "../../assets/img/메인페이지2.jpg";
 import img3 from "../../assets/img/메인페이지3.jpg";
-import img4 from "../../assets/img/메인페이지6.jpg";
+import img4 from "../../assets/img/메인페이지4.jpg";
 import img5 from "../../assets/img/메인페이지5.jpg";
+import img6 from "../../assets/img/메인페이지6.jpg";
 
-const images = [img1, img2, img3, img4, img5];
+const images = [img1, img2, img3, img4, img5, img6];
 
 function ImageSlider() {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -25,17 +26,30 @@ function ImageSlider() {
   }, []);
 
   return (
-    <div className={styles.slider}>
-      {images.map((image, index) => (
-        <img
-          key={index}
-          src={image}
-          alt={`Slide ${index}`}
-          className={`${styles.image} ${
-            index === currentIndex ? styles.active : ""
-          }`}
-        />
-      ))}
+    <div className={styles.sliderContainer}>
+      <div className={styles.slider}>
+        {images.map((image, index) => (
+          <img
+            key={index}
+            src={image}
+            alt={`Slide ${index}`}
+            className={`${styles.image} ${
+              index === currentIndex ? styles.active : ""
+            }`}
+          />
+        ))}
+      </div>
+      {/* 점 표시 영역 */}
+      <div className={styles.dotContainer}>
+        {images.map((_, index) => (
+          <span
+            key={index}
+            className={`${styles.dot} ${
+              index === currentIndex ? styles.activeDot : ""
+            }`}
+          ></span>
+        ))}
+      </div>
     </div>
   );
 }
