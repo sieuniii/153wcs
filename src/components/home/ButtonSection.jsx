@@ -1,6 +1,4 @@
 import React from "react";
-
-import PhotoButton from "../common/PhotoButton";
 import ButtonGrid from "./ButtonGrid";
 
 import image1 from "../../assets/img/예배1.jpeg";
