@@ -2,7 +2,7 @@ import React from "react";
 import BackgroundComponent from "../../components/common/BackgroundComponent";
 import TitleComponent from "../../components/common/TitleComponent";
 import CircleComponent from "../../components/education/CircleComponent";
-import image1 from "../../assets/img/예배5.jpg";
+import image1 from "../../assets/img/교육과정.jpeg";
 import styles from "./Philosophy.module.css";
 
 function PhilosophyPage() {
