@@ -11,6 +11,7 @@ function ButtonGrid({ images }) {
           imageSrc={image.src}
           text={image.text}
           altText={image.alt}
+          navigate={image.navigate}
         />
       ))}
     </div>

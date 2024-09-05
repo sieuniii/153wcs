@@ -1,4 +1,5 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import TitleComponent from "../common/TitleComponent";
 import PhotoGrid from "../common/PhotoGrid";
 import Button from "../common/Button";
@@ -11,6 +12,8 @@ import image5 from "../../assets/img/사회1.jpeg";
 import image6 from "../../assets/img/예배6.jpg";
 
 function GallerySection() {
+  const navigate = useNavigate(); // useNavigate 훅 사용
+
   const images = [
     { src: image1, alt: "수업사진" },
     { src: image2, alt: "수업사진" },
@@ -21,8 +24,7 @@ function GallerySection() {
   ];
 
   const handleMoreButtonClick = () => {
-    console.log("더보기 버튼 클릭됨");
-    // 더보기 기능 구현
+    navigate("/page/ready");
   };
 
   return (

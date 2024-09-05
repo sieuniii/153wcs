@@ -1,5 +1,10 @@
-import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import React, { useEffect } from "react";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  useLocation,
+} from "react-router-dom";
 
 import MainLayout from "./layout/MainLayout";
 import PageLayout from "./layout/PageLayout";
@@ -11,11 +16,22 @@ import EntrancePage from "./pages/entrance/EntrancePage";
 import ReadyPage from "./pages/ReadyPage";
 import "./styles/App.css";
 
+function ScrollToTop() {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
+  return null;
+}
+
 function App() {
   return (
     <Router>
+      <ScrollToTop />
       <Routes>
-        {/* mainlayout  사용 */}
+        {/* mainlayout 사용 */}
         <Route path="/" element={<MainLayout />}>
           <Route path="" element={<HomePage />}></Route>
         </Route>
