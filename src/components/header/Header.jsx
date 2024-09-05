@@ -47,7 +47,7 @@ function Header() {
         <div className={styles.menuItem}>
           <a href="#">교육과정</a>
           <div className={styles.dropdownMenu}>
-            <a href="/history">교육 철학</a>
+            <a href="/page/education">교육철학</a>
             <a href="/history">ABC/P.A.C.E</a>
             <a href="/mission">초중등교육</a>
           </div>
@@ -90,7 +90,7 @@ function Header() {
         <div className={styles.menuItem}>
           <a href="#">교육과정</a>
           <div className={styles.dropdownMenu}>
-            <a href="/history">교육 철학</a>
+            <a href="/page/education">교육철학</a>
             <a href="/history">ABC/P.A.C.E</a>
             <a href="/mission">초중등교육</a>
           </div>
