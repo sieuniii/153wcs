@@ -1,9 +1,6 @@
-import React from 'react'
-
+import React from "react";
 function PrayPage() {
-  return (
-    <div>This is PrayPage</div>
-  )
+  return <div>pray page</div>;
 }
 
-export default PrayPage
+export default PrayPage;

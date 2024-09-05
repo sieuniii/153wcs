@@ -8,6 +8,7 @@ import PrayPage from "./pages/introduction/PrayPage";
 import PhilosophyPage from "./pages/education/PhilosophyPage";
 import PrincipalPage from "./pages/introduction/PrincipalPage";
 import EntrancePage from "./pages/entrance/EntrancePage";
+import ReadyPage from "./pages/ReadyPage";
 import "./styles/App.css";
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
           <Route path="pray" element={<PrayPage />}></Route>
           <Route path="education" element={<PhilosophyPage />}></Route>
           <Route path="entrance" element={<EntrancePage />}></Route>
+          <Route path="ready" element={<ReadyPage />}></Route>
         </Route>
       </Routes>
     </Router>

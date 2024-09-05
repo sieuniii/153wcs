@@ -22,22 +22,25 @@ function AccordionComponent() {
       <CardComponent
         step={3}
         title="상담 진행"
-        content="상담이 어떻게 진행되는지에 대한 내용을 여기에 적습니다."
+        content={`학생, 학부모 학교 방문 및 교감선생님과의 상담 진행
+입학 관련 구비 서류 안내 등 행정적인 절차 안내`}
       />
       <CardComponent
         step={4}
         title="진단고사 진행"
-        content="진단고사가 어떻게 진행되는지에 대한 내용을 여기에 적습니다."
+        content={`Math, Reading, English, Word Building 총 4과목 진단고사를 진행하여 입학 희망 학생 수준 파악`}
       />
       <CardComponent
         step={5}
         title="최종 면접"
-        content="학무보님 및 학생의 최종면접이 진행됩니다. 최종 면접에 대한 내용을 여기에 적습니다."
+        content={`진단고사 결과를 토대로 학생 및 학부모 참여 심층 면접 진행
+학교 방문시 입학서류 필히 지참`}
       />
       <CardComponent
         step={6}
         title="입학 확정"
-        content="입학 확정에 대한 내용을 여기에 적습니다."
+        content={`입학금,  교육비, 재료비 납부 
+          WELCOME TO 153WCS!`}
       />
     </div>
   );

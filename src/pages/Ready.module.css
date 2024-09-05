@@ -1,0 +1,19 @@
+.ready {
+  width: 100%;
+  z-index: 1;
+  display: flex;
+  justify-content: start; /* 가로 중앙 정렬 */
+  align-items: center; /* 세로 중앙 정렬 */
+  flex-direction: column; /* 요소를 세로로 배치 */
+  text-align: center; /* 텍스트를 중앙에 정렬 */
+  margin-top: 100px;
+  font-family: var(--font-thin);
+  margin-bottom: 150px;
+  font-size: 20px;
+
+  p {
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+  }
+}
