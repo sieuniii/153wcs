@@ -1,0 +1,234 @@
+[
+  {
+    "name": "류재상",
+    "english": "Mr.Lyu",
+    "part": "교장선생님",
+    "description": "시몬 베드로가 올라가서 그물을 육지에 끌어올리니 가득찬 물고기가 153마리라 이같이 많으나 그물이 찢어지지 아니하였더라",
+    "bible": "요한복은 21:11",
+    "imageSrc": "/img/teacher/principal.jpeg"
+  },
+  {
+    "name": "신혜원",
+    "english": "Ms.Hanna",
+    "part": "교감선생님",
+    "description": "그리스도의 말씀이 너희 속에 풍성히 거하여 모든 지혜로 피차 가르치며 권면하고 시와 찬송과 신령한 노래를 부르며 감사하는 마음으로 하나님을 찬양하고 또 무엇을 하든지 말에나 일에나 다 주 예수의 이름으로 하고 그를 힘입어 하나님 아버지께 감사하라. ",
+    "bible": "골로새서 3:16-17",
+    "imageSrc": "/img/teacher/vice.jpeg"
+  },
+  {
+    "name": "김선혜",
+    "english": "Ms.Anna",
+    "part": "Faith(1학년) 담임",
+    "description": "그런즉 믿음, 소망, 사랑, 이 세 가지는 항상 있을 것인데 그 중의 제일은 사랑이라",
+    "bible": "고린도전서 13:13",
+    "imageSrc": "/img/teacher/Anna.jpeg"
+  },
+  {
+    "name": "강영미",
+    "english": "Ms.Heather",
+    "part": "Grace(2학년) 담임",
+    "description": "세 번째 이르시되 요한의 아들 시몬아 네가 나를 사랑하느냐 하시니 주께서 세 번째 네가 나를 사랑하느냐 하시므로 베드로가 근심하여 이르되 주님 모든 것을 아시오매 내가 주님을 사랑하는 줄을 주님께서 아시나이다 예수께서 이르시되 내 양을 먹이라",
+    "bible": "요한복음 21:17 ",
+    "imageSrc": "/img/teacher/Heather.jpeg"
+  },
+  {
+    "name": "정에스더",
+    "english": "Ms.Esther",
+    "part": "Hope(3학년) 담임",
+    "description": "오직 여호와를 앙망하는 자는 새 힘을 얻으리니 독수리가 날개치며 올라감 같을 것이요 달음박질하여도 곤비하지 아니하겠고 걸어가도 피곤하지 아니하리로다",
+    "bible": "이사야 40:31 ",
+    "imageSrc": "/img/teacher/Esther.jpeg"
+  },
+  {
+    "name": "육민경",
+    "english": "Ms.Yazhmin",
+    "part": "Love, Truth(4-5학년) 담임",
+    "description": "네 자녀에게 부지런히 가르치며 집에 앉았을 때에든지 길을 갈 때에든지 누워 있을 때에든지 일어날 때에든지 이 말씀을 강론할 것이며",
+    "bible": "신명기 6:7 ",
+    "imageSrc": "/img/teacher/Yazhmin.jpeg"
+  },
+  {
+    "name": "이예권",
+    "english": "Mr.Yi",
+    "part": "Promise, Sincerity, Miracle(6-9학년) 담임",
+    "description": "네 길을 여호와께 맡기라 그를 의지하면 그가 이루시고",
+    "bible": "시편 37:5",
+    "imageSrc": ""
+  },
+  {
+    "name": "정민혁",
+    "english": "Mr.Harry",
+    "part": "P.A.C.E 및 영어 담당",
+    "description": "무엇보다도 뜨겁게 서로 사랑할지니 사랑은 허다한 죄를 덮느니라",
+    "bible": "벧전 4:8",
+    "imageSrc": "/img/teacher/harry.jpg"
+  },
+  {
+    "name": "이예슬",
+    "english": "Ms.Sarah",
+    "part": "P.A.C.E 및 영어 담당",
+    "description": "너는 마음을 다하여 여호와를 신뢰하고 네 명철을 의지하지 말라 너는 범사에 그를 인정하라 그리하면 네 길을 지도하시리라 스스로 지혜롭게 여기지 말지어다 여호와를 경외하며 악을 떠날지어다 ",
+    "bible": "잠언3:5-7 ",
+    "imageSrc": "/img/teacher/sarah.jpg"
+  },
+  {
+    "name": "이수한",
+    "english": "",
+    "part": "미술 선생님",
+    "description": "",
+    "bible": "",
+    "imageSrc": ""
+  },
+  {
+    "name": "남주영",
+    "english": "",
+    "part": "수학/과학 선생님",
+    "description": "그런즉 너는 알라 오직 네 하나님 여호와는 하나님이시요 신실하신 하나님이시라 그를 사랑하고 그의 계명을 지키는 자에게는 천 대까지 그의 언약을 이행하시며 인애를 베푸시되",
+    "bible": "신명기 7:9 ",
+    "imageSrc": "/img/teacher/juyoung.JPG"
+  },
+  {
+    "name": "김혜원",
+    "english": "",
+    "part": "국어 선생님",
+    "description": "",
+    "bible": "",
+    "imageSrc": ""
+  },
+  {
+    "name": "김경아",
+    "english": "",
+    "part": "한문 선생님",
+    "description": "",
+    "bible": "",
+    "imageSrc": ""
+  },
+  {
+    "name": "이경서",
+    "english": "",
+    "part": "컴퓨터 선생님",
+    "description": "",
+    "bible": "",
+    "imageSrc": ""
+  },
+  {
+    "name": "김유라",
+    "english": "",
+    "part": "음악 선생님",
+    "description": "",
+    "bible": "",
+    "imageSrc": ""
+  },
+  {
+    "name": "김유진",
+    "english": "",
+    "part": "1학년 ABC 선생님",
+    "description": "그러므로 내 사랑하는 형제들아 견실하며 흔들리지 말고 항상 주의 일에 더욱 힘쓰는 자들이 되라 이는 너희 수고가 주 안에서 헛되지 않은 줄 앎이라",
+    "bible": "고린도전서 15:58",
+    "imageSrc": "/img/teacher/Yujin.jpg"
+  },
+  {
+    "name": "김경",
+    "english": "",
+    "part": "독서 선생님",
+    "description": "",
+    "bible": " ",
+    "imageSrc": ""
+  },
+  {
+    "name": "채지은",
+    "english": "",
+    "part": "독서 선생님",
+    "description": "",
+    "bible": "",
+    "imageSrc": ""
+  },
+  {
+    "name": "박은혜",
+    "english": "",
+    "part": "체육 선생님",
+    "description": "",
+    "bible": "",
+    "imageSrc": ""
+  },
+  {
+    "name": "송경란",
+    "english": "",
+    "part": "국악 선생님",
+    "description": "",
+    "bible": "",
+    "imageSrc": ""
+  },
+  {
+    "name": "변현정",
+    "english": "",
+    "part": "현악반 선생님",
+    "description": "",
+    "bible": "",
+    "imageSrc": ""
+  },
+  {
+    "name": "박하은",
+    "english": "",
+    "part": "행정 선생님",
+    "description": "내게 능력주시는 자 안에서 내가 모든 것을 할 수 있느니라 ",
+    "bible": "빌립보서 4:13",
+    "imageSrc": "/img/teacher/haeun.jpeg"
+  },
+  {
+    "name": "임미숙",
+    "english": "",
+    "part": "급식 선생님",
+    "description": "",
+    "bible": "",
+    "imageSrc": "/img/teacher/Misouck.jpg"
+  },
+  {
+    "name": "이정희",
+    "english": "",
+    "part": "급식 선생님",
+    "description": "",
+    "bible": "",
+    "imageSrc": ""
+  },
+  {
+    "name": "이정희",
+    "english": "",
+    "part": "급식 선생님",
+    "description": "",
+    "bible": "",
+    "imageSrc": ""
+  },
+  {
+    "name": "신명숙",
+    "english": "",
+    "part": "영양사 선생님",
+    "description": "",
+    "bible": "",
+    "imageSrc": "/img/teacher/Myoungsouck.jpeg"
+  },
+  {
+    "name": "권태옥",
+    "english": "",
+    "part": "차량 운행",
+    "description": "",
+    "bible": "",
+    "imageSrc": "/img/teacher/taeouck.jpg"
+  },
+  {
+    "name": "김수년",
+    "english": "",
+    "part": "차량 & 시설 설비",
+    "description": "",
+    "bible": "",
+    "imageSrc": ""
+  },
+  {
+    "name": "안정애",
+    "english": "",
+    "part": "건물 미화",
+    "description": "",
+    "bible": "",
+    "imageSrc": ""
+  }
+]

@@ -12,9 +12,74 @@
 }
 
 .teacherGrid {
+  gap: 30px;
   display: grid;
   grid-template-columns: repeat(3, 1fr); /* 3개의 열로 구성된 그리드 */
   justify-items: center; /* 각 그리드 아이템을 가로로 중앙 정렬 */
   align-items: center; /* 각 그리드 아이템을 세로로 중앙 정렬 */
-  width: 100%;
+  width: 80%;
+}
+
+.pagination {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.pagination button {
+  padding: 10px 15px;
+  border: 1px solid #ddd;
+  background-color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.pagination button:hover {
+  background-color: #f0f0f0;
+}
+
+.pagination .activePage {
+  background-color: var(--main-color);
+  color: white;
+  border-color: var(--main-color);
+}
+
+.principalCard,
+.vicePrincipalCard {
+  margin-bottom: 40px; /* 교장, 교감 선생님 카드 간 간격 */
+  width: 50%;
+}
+
+.teacherGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.teacherGridMobile {
+  display: grid;
+  grid-template-columns: 1fr; /* 모바일에서는 한 줄에 한 명 */
+  gap: 20px;
+  justify-items: center; /* 각 그리드 아이템을 가로로 중앙 정렬 */
+  align-items: center; /* 각 그리드 아이템을 세로로 중앙 정렬 */
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pagination button {
+  margin: 0 5px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.pagination .activePage {
+  background-color: var(--main-color);
+  color: white;
 }
