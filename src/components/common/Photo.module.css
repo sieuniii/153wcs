@@ -24,6 +24,6 @@
     grid-template-columns: repeat(2, 1fr); /* 3개의 열로 구성된 그리드 */
     gap: 20px; /* 각 이미지 사이의 간격 */
     box-sizing: border-box; /* 패딩을 포함하여 박스 크기를 계산 */
-    margin: 10px;
+    padding: 20px;
   }
 }

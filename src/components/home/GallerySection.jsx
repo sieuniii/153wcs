@@ -1,27 +1,25 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import TitleComponent from "../common/TitleComponent";
 import PhotoGrid from "../common/PhotoGrid";
 import Button from "../common/Button";
 import styles from "../../pages/home/Homepage.module.css";
-import image1 from "../../assets/img/예배7.jpg";
-import image2 from "../../assets/img/예배1.jpeg";
-import image3 from "../../assets/img/예배2.jpg";
-import image4 from "../../assets/img/예배3.jpg";
-import image5 from "../../assets/img/사회1.jpeg";
-import image6 from "../../assets/img/예배6.jpg";
+import galleryData from "../../assets/data/gallery.json";
 
 function GallerySection() {
   const navigate = useNavigate(); // useNavigate 훅 사용
+  const [images, setImages] = useState([]);
 
-  const images = [
-    { src: image1, alt: "수업사진" },
-    { src: image2, alt: "수업사진" },
-    { src: image3, alt: "수업사진" },
-    { src: image4, alt: "수업사진" },
-    { src: image5, alt: "수업사진" },
-    { src: image6, alt: "수업사진" },
-  ];
+  // JSON 파일에서 첫 6개의 이미지만 가져오기
+  useEffect(() => {
+    const fetchImages = async () => {
+      // 첫 6개의 이미지만 추출
+      const firstSixImages = galleryData.slice(0, 6);
+      setImages(firstSixImages);
+    };
+
+    fetchImages();
+  }, []);
 
   const handleMoreButtonClick = () => {
     navigate("/page/ready");
