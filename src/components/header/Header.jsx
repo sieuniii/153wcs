@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import styles from "./Header.module.css";
-import logo from "../../assets/img/로고.png";
 import logoText from "../../assets/img/logoText.png";
 import { FaBars, FaTimes } from "react-icons/fa"; // 햄버거 아이콘과 닫기 아이콘
 
