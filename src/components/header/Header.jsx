@@ -32,10 +32,10 @@ function Header() {
           <a href="/page/principal">학교소개</a>
           <div className={styles.dropdownMenu}>
             <a href="/page/principal">학교장 소개</a>
+            <a href="/page/teacher">교직원 소개</a>
             <a href="/page/ready">153 기도문</a>
             <a href="/page/ready">153 캠퍼스 역사</a>
             <a href="/page/ready">학교 연혁</a>
-            <a href="/page/teacher">교직원 소개</a>
             <a href="/page/ready">학사 일정</a>
             <a href="/page/ready">연락처</a>
           </div>
@@ -54,9 +54,9 @@ function Header() {
         <div className={styles.menuItem}>
           <a href="/page/ready">학교생활</a>
           <div className={styles.dropdownMenu}>
+            <a href="/page/gallery">갤러리</a>
             <a href="/page/ready">학교활동</a>
             <a href="/page/ready">스쿨버스</a>
-            <a href="/page/ready">갤러리</a>
           </div>
         </div>
         <div className={styles.menuItem}>
@@ -75,10 +75,10 @@ function Header() {
           <a href="/page/principal">학교소개</a>
           <div className={styles.dropdownMenu}>
             <a href="/page/principal">학교장 소개</a>
+            <a href="/page/teacher">교직원 소개</a>
             <a href="/page/ready">153 기도문</a>
             <a href="/page/ready">153 캠퍼스 역사</a>
             <a href="/page/ready">학교 연혁</a>
-            <a href="/page/teacher">교직원 소개</a>
             <a href="/page/ready">학사 일정</a>
             <a href="/page/ready">연락처</a>
           </div>
@@ -97,9 +97,9 @@ function Header() {
         <div className={styles.menuItem}>
           <a href="/page/ready">학교생활</a>
           <div className={styles.dropdownMenu}>
+            <a href="/page/gallery">갤러리</a>
             <a href="/page/ready">학교활동</a>
             <a href="/page/ready">스쿨버스</a>
-            <a href="/page/ready">갤러리</a>
           </div>
         </div>
         <div className={styles.menuItem}>

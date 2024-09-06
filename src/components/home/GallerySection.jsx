@@ -22,7 +22,7 @@ function GallerySection() {
   }, []);
 
   const handleMoreButtonClick = () => {
-    navigate("/page/ready");
+    navigate("/page/gallery");
   };
 
   return (

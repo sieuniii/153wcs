@@ -3,7 +3,7 @@ import BackgroundComponent from "../../components/common/BackgroundComponent";
 import TitleComponent from "../../components/common/TitleComponent";
 import TeacherCard from "../../components/introduction/TeacherCard";
 import styles from "./TeacherPage.module.css";
-import image1 from "../../assets/img/학교전경2.jpg";
+import image1 from "../../assets/img/학교소개.jpg";
 import teachersData from "../../assets/data/teacher.json";
 import useMediaQuery from "../../hooks/useMediaQuery.jsx"; // 미디어 쿼리 훅
 

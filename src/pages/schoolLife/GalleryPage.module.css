@@ -1,0 +1,46 @@
+.contentSection {
+  width: 100%;
+  display: flex;
+  justify-content: start; /* 가로 중앙 정렬 */
+  align-items: center; /* 세로 중앙 정렬 */
+  flex-direction: column; /* 요소를 세로로 배치 */
+  text-align: center; /* 텍스트를 중앙에 정렬 */
+  padding-top: 100px;
+}
+
+/* pagination 스타일 */
+.pagination {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+  margin-bottom: 100px;
+}
+
+.pagination button {
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  background-color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.pagination button:hover {
+  background-color: var(--sub-color);
+  color: white;
+}
+
+.pagination button.activePage {
+  background-color: var(--main-color) !important; /* main-color 적용 */
+  color: white;
+  border-color: var(--main-color);
+}
+
+@media screen and (max-width: 768px) {
+  .pagination button {
+    width: 50px;
+    height: 50px;
+  }
+}

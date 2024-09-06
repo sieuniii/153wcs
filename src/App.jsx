@@ -15,6 +15,7 @@ import PrincipalPage from "./pages/introduction/PrincipalPage";
 import EntrancePage from "./pages/entrance/EntrancePage";
 import ReadyPage from "./pages/ReadyPage";
 import TeacherPage from "./pages/introduction/TeacherPage";
+import GalleryPage from "./pages/schoolLife/GalleryPage";
 import "./styles/App.css";
 
 function ScrollToTop() {
@@ -45,6 +46,7 @@ function App() {
           <Route path="entrance" element={<EntrancePage />}></Route>
           <Route path="ready" element={<ReadyPage />}></Route>
           <Route path="teacher" element={<TeacherPage />}></Route>
+          <Route path="gallery" element={<GalleryPage />}></Route>
         </Route>
       </Routes>
     </Router>
