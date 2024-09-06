@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import styles from "./Header.module.css";
 import logo from "../../assets/img/로고.png";
+import logoText from "../../assets/img/logoText.png";
 import { FaBars, FaTimes } from "react-icons/fa"; // 햄버거 아이콘과 닫기 아이콘
 
 function Header() {
@@ -15,8 +16,7 @@ function Header() {
   return (
     <header className={styles.header}>
       <div className={styles.logo} onClick={() => navigate("/")}>
-        <img src={logo} alt="Logo" />
-        <p>153 WORLD CHRISTIAN SCHOOL</p>
+        <img className={styles.logoText} src={logoText} alt="LogoText" />
       </div>
 
       {/* 햄버거 메뉴 (모바일 전용) */}
@@ -36,7 +36,7 @@ function Header() {
             <a href="/page/ready">153 기도문</a>
             <a href="/page/ready">153 캠퍼스 역사</a>
             <a href="/page/ready">학교 연혁</a>
-            <a href="/page/ready">교직원 소개</a>
+            <a href="/page/teacher">교직원 소개</a>
             <a href="/page/ready">학사 일정</a>
             <a href="/page/ready">연락처</a>
           </div>
@@ -79,7 +79,7 @@ function Header() {
             <a href="/page/ready">153 기도문</a>
             <a href="/page/ready">153 캠퍼스 역사</a>
             <a href="/page/ready">학교 연혁</a>
-            <a href="/page/ready">교직원 소개</a>
+            <a href="/page/teacher">교직원 소개</a>
             <a href="/page/ready">학사 일정</a>
             <a href="/page/ready">연락처</a>
           </div>
