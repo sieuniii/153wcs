@@ -3,7 +3,7 @@ import ButtonGrid from "./ButtonGrid";
 
 import image1 from "../../assets/img/입학안내.jpeg";
 import image2 from "../../assets/img/예배5.jpg";
-import image3 from "../../assets/img/시설.jpg";
+import image3 from "../../assets/img/학교둘러보기.jpg";
 import styles from "../../pages/home/Homepage.module.css";
 
 function ButtonSection() {
