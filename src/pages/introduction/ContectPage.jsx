@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { Map, MapMarker } from "react-kakao-maps-sdk";
 import styles from "./ContectPage.module.css";
 import BackgroundComponent from "../../components/common/BackgroundComponent";
