@@ -38,7 +38,7 @@ function Header() {
             <a href="/page/ready">학교 연혁</a>
             <a href="/page/ready">학사 일정</a>
             <a href="/page/ready">학교 시설</a>
-            <a href="/page/ready">연락처</a>
+            <a href="/page/contect">연락처</a>
           </div>
         </div>
         <div className={styles.menuItem}>
@@ -82,7 +82,7 @@ function Header() {
             <a href="/page/ready">학교 연혁</a>
             <a href="/page/ready">학사 일정</a>
             <a href="/page/ready">학교 시설</a>
-            <a href="/page/ready">연락처</a>
+            <a href="/page/contect">연락처</a>
           </div>
         </div>
         <div className={styles.menuItem}>
