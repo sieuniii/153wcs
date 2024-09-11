@@ -5,6 +5,7 @@ import {
   Route,
   useLocation,
 } from "react-router-dom";
+import { Analytics } from "@vercel/analytics/react"; // Vercel Analytics import
 
 import MainLayout from "./layout/MainLayout";
 import PageLayout from "./layout/PageLayout";
@@ -51,6 +52,8 @@ function App() {
           <Route path="contect" element={<ContectPage />}></Route>
         </Route>
       </Routes>
+
+      <Analytics />
     </Router>
   );
 }
