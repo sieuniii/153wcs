@@ -34,7 +34,7 @@ function ContectPage() {
     if (isMapLoaded) {
       const container = document.getElementById("map"); // 지도를 그릴 HTML 요소
       const options = {
-        center: new window.kakao.maps.LatLng(37.488526, 126.825038), // 지도 중심 좌표
+        center: new window.kakao.maps.LatLng(37.4866, 126.81985), // 지도 중심 좌표
         level: 2, // 지도 줌 레벨
       };
       const map = new window.kakao.maps.Map(container, options); // 지도 생성
@@ -44,10 +44,7 @@ function ContectPage() {
         markerImg, // 이미지 파일을 변수로 교체
         new window.kakao.maps.Size(100, 100)
       );
-      const markerPosition = new window.kakao.maps.LatLng(
-        37.488526,
-        126.825038
-      );
+      const markerPosition = new window.kakao.maps.LatLng(37.4866, 126.81985);
       const marker = new window.kakao.maps.Marker({
         position: markerPosition,
         image: markerImage,
