@@ -34,7 +34,7 @@ function PrincipalPage() {
             <div className={styles.principalText}>
               <p>류재상/ Jaesang Lyu</p>
               <ul>
-                <li>서강대학교 종교학 박사 (B.A)</li>
+                <li>서강대학교 종교학 학사 (B.A)</li>
                 <li>Union Presbyterian Seminary 목회학 석사 (M.Div)</li>
                 <li>기독교 교육학 석사 (MA)</li>
                 <li>Virginia Commonwealth University 환자 상담학 석사 (M.S)</li>
