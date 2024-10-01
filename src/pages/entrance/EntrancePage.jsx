@@ -26,7 +26,7 @@ function EntrancePage() {
         </p>
         <div className={styles.entranceInfo}>
           <p>Tel. 032-341-0153</p>
-          <p>Email. 153.wc.school@gmail.com</p>
+          <p>Email. 153.world.cs@gmail.com</p>
           <p>KakaoID. 153_wsc</p>
         </div>
       </div>
